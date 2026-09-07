@@ -126,9 +126,9 @@ Rendshift is a platformer built around fast movement, tight jumps and punishing 
 ### 3.5 Scoring & Progression
 | Element | Description |
 |---|---|
-| Scoring System | |
-| Difficulty Progression | |
-| Unlockables / Levels | |
+| Scoring System |Time of the completed level|
+| Difficulty Progression |Levels 1-10|
+| Unlockables / Levels |10|
 
 ---
 
@@ -305,13 +305,13 @@ Rendshift is a platformer built around fast movement, tight jumps and punishing 
 |CameraFollow.cs|Maincam|Follow Player|
 |CameraModeSwitcher.cs|CameraManager| |
 |DashTimer.cs| |Dash Cooldown|
-|DeathExplosion.cs| |Explosion Animation|
+|DeathExplosion.cs|DeathGif|Explosion Animation|
 |FallingPlatform.cs|FallingBlock|Falling Block Object|
 |FinishBlock.cs|End|Level finish|
 |FreeCamController.cs|Freecam|Freecam|
-|GameManager.cs| | |
+|GameManager.cs|GameManager| |
 |Kill.cs| | |
-|NoDashZone.cs|NoDashZone| |
+|NoDashZone.cs|NoDashZone|No dashing allowed|
 |Restart.cs| | |
 |RunManager.cs| | |
 |Timer.cs|TimerText| |
